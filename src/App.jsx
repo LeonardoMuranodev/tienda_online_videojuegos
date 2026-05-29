@@ -1,6 +1,8 @@
 import { useState } from 'react'
-
 import { Route, Routes } from 'react-router'
+
+import './App.css'
+
 import Inicio from './pages/Inicio.jsx'
 import Productos from './pages/Productos.jsx'
 import DetalleProducto from './pages/DetalleProducto.jsx'
