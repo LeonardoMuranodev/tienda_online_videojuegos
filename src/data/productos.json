@@ -1,7 +1,6 @@
-[
-    {
+{
+    "1207658645": {
         "titulo": "MDK 2",
-        "id": 1207658645,
         "imagenes": {
             "portada": "https://images.gog-statics.com/e7c544a52cc0d46607f7c7b4a6bdec87ec4227a54fd1f06d1c317855801536c4.jpg",
             "fondo": "https://images.gog-statics.com/bc584ddf8934cac483a41a04a6d21270620c0f3b795a1eaeeb746e4684eaf891.jpg"
@@ -12,12 +11,11 @@
             "Sci-fi"
         ],
         "categoria": "GAME",
-        "stock": 8,
-        "precio": 5.05
+        "stock": 18,
+        "precio": 31.94
     },
-    {
+    "1207658646": {
         "titulo": "Conquest of the New World",
-        "id": 1207658646,
         "imagenes": {
             "portada": "https://images.gog-statics.com/48437933ef6930ee5a0e06affa63ba9ef47e1ded6b336407c167235ba12fca1d.jpg",
             "fondo": "https://images.gog-statics.com/81f66fbbf2f1b719f76fed6f235d355c2bb7e97eb43a4c69746f0aaa35b27fda.jpg"
@@ -28,12 +26,11 @@
             "Historical"
         ],
         "categoria": "GAME",
-        "stock": 8,
-        "precio": 38.38
+        "stock": 0,
+        "precio": 8.36
     },
-    {
+    "1207658647": {
         "titulo": "Die By The Sword + Limb From Limb",
-        "id": 1207658647,
         "imagenes": {
             "portada": "https://images.gog-statics.com/488521bbe887b1af501c93c87fe33443fae850f5519dac8e31e0ba5b9af9ef34.jpg",
             "fondo": "https://images.gog-statics.com/7121c655c3c7ff487be7dd8be7a9c454611eaee7be844b8ec7f251a0040c4cab.jpg"
@@ -44,12 +41,11 @@
             "Fantasy"
         ],
         "categoria": "GAME",
-        "stock": 13,
-        "precio": 11.6
+        "stock": 15,
+        "precio": 38.3
     },
-    {
+    "1207658648": {
         "titulo": "Evolva",
-        "id": 1207658648,
         "imagenes": {
             "portada": "https://images.gog-statics.com/43b7c429ce0e2ee7c960ba19e01aca8c7f470095c99edbf0c67be8fcd149a37d.jpg",
             "fondo": "https://images.gog-statics.com/7529244be70d254e810bef1b5be40b4e1b46149b9c58ceb02e889539bba14f75.jpg"
@@ -60,12 +56,11 @@
             "Sci-fi"
         ],
         "categoria": "GAME",
-        "stock": 2,
-        "precio": 45.23
+        "stock": 0,
+        "precio": 38.14
     },
-    {
+    "1207658649": {
         "titulo": "Earthworm Jim 3D",
-        "id": 1207658649,
         "imagenes": {
             "portada": "https://images.gog-statics.com/1d178c56cbd0e4f797bcf46a2497955efdf90cd67a33c28a91eeaef245fb7a48.jpg",
             "fondo": "https://images.gog-statics.com/a03879786e6ffb5e3e395172e24255b6419c1f14d097e2751ecb1833ee2abb60.jpg"
@@ -76,12 +71,11 @@
             "Platformer"
         ],
         "categoria": "GAME",
-        "stock": 1,
-        "precio": 29.93
+        "stock": 18,
+        "precio": 27.31
     },
-    {
+    "1207658650": {
         "titulo": "Giants: Citizen Kabuto",
-        "id": 1207658650,
         "imagenes": {
             "portada": "https://images.gog-statics.com/3dc8ac7bc9eaf0fb5e9a24b18f83afbbadf1e5defb5b1f29e967076684283e19.jpg",
             "fondo": "https://images.gog-statics.com/1c80d8954832a43501a4003b2878105858b170824d37b6c1ab72f0103356ce5e.jpg"
@@ -92,12 +86,11 @@
             "Sci-fi"
         ],
         "categoria": "GAME",
-        "stock": 0,
-        "precio": 36.72
+        "stock": 16,
+        "precio": 47.78
     },
-    {
+    "1207658651": {
         "titulo": "Sacrifice",
-        "id": 1207658651,
         "imagenes": {
             "portada": "https://images.gog-statics.com/88b6777aef8658dcdb02db7f32ccc2fca35f76a1d790fa85b35c5839953a3d2b.jpg",
             "fondo": "https://images.gog-statics.com/e5e0a52ae966e1df77fd0feb66da55c25fbfad887cad8c2c616f19dc429337d8.jpg"
@@ -108,12 +101,11 @@
             "Fantasy"
         ],
         "categoria": "GAME",
-        "stock": 0,
-        "precio": 15.71
+        "stock": 16,
+        "precio": 14.68
     },
-    {
+    "1207658652": {
         "titulo": "Original War",
-        "id": 1207658652,
         "imagenes": {
             "portada": "https://images.gog-statics.com/84e9541328e8e9dc183d3faf31857bb875cb1787a3072439e0136722bb462ebe.jpg",
             "fondo": "https://images.gog-statics.com/1891bec3d5cbdd031f4c49ceea579769e86f40733ae924c8a7102d43c0aab5a9.jpg"
@@ -124,12 +116,11 @@
             "Sci-fi"
         ],
         "categoria": "GAME",
-        "stock": 11,
-        "precio": 37.53
+        "stock": 0,
+        "precio": 5.55
     },
-    {
+    "1207658653": {
         "titulo": "Jagged Alliance 2: Unfinished Business",
-        "id": 1207658653,
         "imagenes": {
             "portada": "https://images.gog-statics.com/c9efecfc373796063e0bda7395ba9c25ed51dea5f5bc1a33e08aa5a14fde9fc8.jpg",
             "fondo": "https://images.gog-statics.com/c667616a0989f863ddf358c15927fb84b1ac96a86e57699ab390f2c172f3f707.jpg"
@@ -140,12 +131,11 @@
             "Modern"
         ],
         "categoria": "GAME",
-        "stock": 16,
-        "precio": 24.0
+        "stock": 0,
+        "precio": 19.33
     },
-    {
+    "1207658658": {
         "titulo": "1nsane",
-        "id": 1207658658,
         "imagenes": {
             "portada": "https://images.gog-statics.com/b2ec9d3edfafee0fd4e5aa463f622bc005839d1b53bdc8f3c1b31a1b6956f529.jpg",
             "fondo": "https://images.gog-statics.com/eeb4cf654c1b260c84b28c27d1699abf77ff62d6cc249cc946142880a010b367.jpg"
@@ -156,12 +146,11 @@
             "Off-road"
         ],
         "categoria": "GAME",
-        "stock": 5,
-        "precio": 21.4
+        "stock": 8,
+        "precio": 47.34
     },
-    {
+    "1207658659": {
         "titulo": "Shogo: Mobile Armor Division",
-        "id": 1207658659,
         "imagenes": {
             "portada": "https://images.gog-statics.com/d15d1de7bcb13808c40800cdfbb36ad4da9851a6351cf2972069badaa3d8c29f.jpg",
             "fondo": "https://images.gog-statics.com/89c7ec58487f8be74cb5146edf64372cedcd67d7371c6ffb17a6eb979006bde5.jpg"
@@ -172,12 +161,11 @@
             "Sci-fi"
         ],
         "categoria": "GAME",
-        "stock": 2,
-        "precio": 16.31
+        "stock": 0,
+        "precio": 56.09
     },
-    {
+    "1207658660": {
         "titulo": "F/A-18E Super Hornet",
-        "id": 1207658660,
         "imagenes": {
             "portada": "https://images.gog-statics.com/49895c08000f13fbfe6cf939240664dbee88cd63ebaf95d9be9c991297317135.jpg",
             "fondo": "https://images.gog-statics.com/8318273d3fabe4da19882290b48855e5a8e58c556d1ba77396c9c26ba975d194.jpg"
@@ -188,12 +176,11 @@
             "Modern"
         ],
         "categoria": "GAME",
-        "stock": 6,
-        "precio": 29.68
+        "stock": 0,
+        "precio": 31.19
     },
-    {
+    "1207658661": {
         "titulo": "ARMA: Cold War Assault",
-        "id": 1207658661,
         "imagenes": {
             "portada": "https://images.gog-statics.com/605b9bc408f719b40be54276a9f804f9f8cf98df7235dad090b2b0b4fc5ffd8e.jpg",
             "fondo": "https://images.gog-statics.com/fc42e778609ece65f18c5f137be3df281d42daa29260df18895833c7a0a105cd.jpg"
@@ -204,12 +191,11 @@
             "Tactical"
         ],
         "categoria": "GAME",
-        "stock": 3,
-        "precio": 24.99
+        "stock": 18,
+        "precio": 39.11
     },
-    {
+    "1207658662": {
         "titulo": "Second Sight",
-        "id": 1207658662,
         "imagenes": {
             "portada": "https://images.gog-statics.com/390a2e21e8266a6dc8d94a24848bbdc7056fc20d19016a1724e1a4a7ffd8eb90.jpg",
             "fondo": "https://images.gog-statics.com/82dc14b1948690d5b013fe86913401c76dc109a34921cf96d1f03d045d3f9599.jpg"
@@ -220,12 +206,11 @@
             "Sci-fi"
         ],
         "categoria": "GAME",
-        "stock": 9,
-        "precio": 26.36
+        "stock": 0,
+        "precio": 16.57
     },
-    {
+    "1207658667": {
         "titulo": "Perimeter",
-        "id": 1207658667,
         "imagenes": {
             "portada": "https://images.gog-statics.com/6e93fc353f84fd21ed0cc81b95d2f5dc27b5063dc9db049494dde313d6c29998.jpg",
             "fondo": "https://images.gog-statics.com/8b9fb3a0d3b8f326908aff56cfe8f1e974adf00d6e7d31439df7e11877e03929.jpg"
@@ -236,12 +221,11 @@
             "Sci-fi"
         ],
         "categoria": "GAME",
-        "stock": 16,
-        "precio": 8.21
+        "stock": 10,
+        "precio": 58.44
     },
-    {
+    "1207658668": {
         "titulo": "Sensible Soccer 2006",
-        "id": 1207658668,
         "imagenes": {
             "portada": "https://images.gog-statics.com/085aad192eae815e18e2ed2eba044d1c68984e0e6aa69092b5e8971bd7d04389.jpg",
             "fondo": "https://images.gog-statics.com/293b122f6ad6d5bb279fde6e4f16d91a47f415822e8f282ac6793c0e2c2da0ab.jpg"
@@ -252,12 +236,11 @@
             "Team sport"
         ],
         "categoria": "GAME",
-        "stock": 0,
-        "precio": 42.4
+        "stock": 12,
+        "precio": 36.86
     },
-    {
+    "1207658669": {
         "titulo": "Shattered Steel",
-        "id": 1207658669,
         "imagenes": {
             "portada": "https://images.gog-statics.com/14fd2346786b0761bfebd3cfc7a138130e5e51ec73697b6a2ec64578c1845949.jpg",
             "fondo": "https://images.gog-statics.com/57dd2bf6ed4ecfd569f9d48e0fae354c5e3841b9bdf9bfaa63bd697e88740074.jpg"
@@ -268,12 +251,11 @@
             "Sci-fi"
         ],
         "categoria": "GAME",
-        "stock": 5,
-        "precio": 32.56
+        "stock": 10,
+        "precio": 55.62
     },
-    {
+    "1207658671": {
         "titulo": "Stonekeep",
-        "id": 1207658671,
         "imagenes": {
             "portada": "https://images.gog-statics.com/f860c1bfe94e89358485e1f69c5251404ca514c87d0e938002dc2251fb2ef186.jpg",
             "fondo": "https://images.gog-statics.com/958739df3b6648bbeac827868829e029eb175d9c57497ff993012970a062ca80.jpg"
@@ -284,12 +266,11 @@
             "Fantasy"
         ],
         "categoria": "GAME",
-        "stock": 15,
-        "precio": 51.02
+        "stock": 7,
+        "precio": 19.6
     },
-    {
+    "1207658672": {
         "titulo": "Earthworm Jim 1+2: The Whole Can 'O Worms",
-        "id": 1207658672,
         "imagenes": {
             "portada": "https://images.gog-statics.com/87ceb22ddcb06d53443164cfb4520538e9fe9c661fafa0b7c69f2fc187ba5538.jpg",
             "fondo": "https://images.gog-statics.com/7f5f3d8475d38fecc37c97c05d89ea103e43419103c1989ab3fc49bc12af6bb8.jpg"
@@ -300,12 +281,11 @@
             "Platformer"
         ],
         "categoria": "PACK",
-        "stock": 3,
-        "precio": 32.48
+        "stock": 18,
+        "precio": 8.48
     },
-    {
+    "1207658674": {
         "titulo": "Redneck Rampage Collection",
-        "id": 1207658674,
         "imagenes": {
             "portada": "https://images.gog-statics.com/d89bf211297dd690e57b27ba2f6254ffd51de8c8f5c204adf74e49958a557394.jpg",
             "fondo": "https://images.gog-statics.com/0924e19dbf8d2cea6821bf08b1029e0fbc66261ec68b76fc54b7ac16bcd3d05c.jpg"
@@ -316,12 +296,11 @@
             "Sci-fi"
         ],
         "categoria": "GAME",
-        "stock": 12,
-        "precio": 30.65
+        "stock": 0,
+        "precio": 38.17
     },
-    {
+    "1207658675": {
         "titulo": "Kingdom: The Far Reaches",
-        "id": 1207658675,
         "imagenes": {
             "portada": "https://images.gog-statics.com/59f9635be030c3e399b8fcfb846e1cfa5b81e13b28dc5959981ed45b21bdcb7b.jpg",
             "fondo": "https://images.gog-statics.com/1df65c1761b6e3f8cefe6408af9695d08e2906da1117c3750e331ccb06745477.jpg"
@@ -332,12 +311,11 @@
             "Adventure"
         ],
         "categoria": "GAME",
-        "stock": 17,
-        "precio": 52.88
+        "stock": 1,
+        "precio": 45.68
     },
-    {
+    "1207658677": {
         "titulo": "Unreal 2: The Awakening Special Edition",
-        "id": 1207658677,
         "imagenes": {
             "portada": "https://images.gog-statics.com/d69eee03a6f06dc6d1cdb52f139e4f28554c8cffaf0c4838a2103e6bd64143c5.jpg",
             "fondo": "https://images.gog-statics.com/7146669504db5370146c35fb4a483a6dc07be52efdcd42655e93cf1cea553533.jpg"
@@ -348,12 +326,11 @@
             "Sci-fi"
         ],
         "categoria": "GAME",
-        "stock": 16,
-        "precio": 5.49
+        "stock": 0,
+        "precio": 51.76
     },
-    {
+    "1207658678": {
         "titulo": "Castles 1+2",
-        "id": 1207658678,
         "imagenes": {
             "portada": "https://images.gog-statics.com/9cf293407cdbde8265128e1452d13412a4bff0830d5a4bd73b90f2506b67cbee.jpg",
             "fondo": "https://images.gog-statics.com/60f04fa25c1b9220f20dde14e0065ab12c932e1023e90069541001c3b712050b.jpg"
@@ -364,12 +341,11 @@
             "Building"
         ],
         "categoria": "PACK",
-        "stock": 17,
-        "precio": 58.99
+        "stock": 5,
+        "precio": 15.56
     },
-    {
+    "4": {
         "titulo": "Descent: Freespace Battle Pack",
-        "id": 4,
         "imagenes": {
             "portada": "https://images.gog-statics.com/d4e378f9718a445801d36ac65fd557c479696e2f65e399a37d5872449205a489.jpg",
             "fondo": "https://images.gog-statics.com/36a9bab9dabe26692caf87fea048ca625758f306d7b2624ece2311c59e288899.jpg"
@@ -380,12 +356,11 @@
             "Sci-fi"
         ],
         "categoria": "GAME",
-        "stock": 3,
-        "precio": 33.85
+        "stock": 4,
+        "precio": 54.99
     },
-    {
+    "5": {
         "titulo": "Freespace 2",
-        "id": 5,
         "imagenes": {
             "portada": "https://images.gog-statics.com/a2b5eb782fb671213238dcb481359dfaf13083cac50348ce77440c09e61aff3f.jpg",
             "fondo": "https://images.gog-statics.com/86c0f4c9593dfd9a7583ac14684d0aa1b672da42b17d2346a702b2ea42f4bd13.jpg"
@@ -396,12 +371,11 @@
             "Sci-fi"
         ],
         "categoria": "GAME",
-        "stock": 4,
-        "precio": 50.86
+        "stock": 0,
+        "precio": 10.8
     },
-    {
+    "6": {
         "titulo": "MDK",
-        "id": 6,
         "imagenes": {
             "portada": "https://images.gog-statics.com/6608c66b45160cdf653b2cd204be11ed0dd4f018133ff4232f8a66cd43e54be4.jpg",
             "fondo": "https://images.gog-statics.com/0ea3fbf049d65e8c444bf7383ddba7e0b3618ddf370a8624c53625768319dafb.jpg"
@@ -412,12 +386,11 @@
             "Sci-fi"
         ],
         "categoria": "GAME",
-        "stock": 0,
-        "precio": 8.62
+        "stock": 14,
+        "precio": 57.55
     },
-    {
+    "7": {
         "titulo": "Messiah",
-        "id": 7,
         "imagenes": {
             "portada": "https://images.gog-statics.com/b4054ca4fdfc568f35d0f96ddf8073db9d76b159df3975ae1826f3a716a6f6f7.jpg",
             "fondo": "https://images.gog-statics.com/a85d29a77ba347116dc90403a0a2d18917a5bb9d373d5523fa906c83f6130669.jpg"
@@ -428,12 +401,11 @@
             "Sci-fi"
         ],
         "categoria": "GAME",
-        "stock": 14,
-        "precio": 37.55
+        "stock": 3,
+        "precio": 8.03
     },
-    {
+    "8": {
         "titulo": "Lionheart: Legacy of the Crusader",
-        "id": 8,
         "imagenes": {
             "portada": "https://images.gog-statics.com/90508b21298069c9ae7d43d1acb92cd37d42d9b6f0d006d870e15a2e67cd8667.jpg",
             "fondo": "https://images.gog-statics.com/d968fcd46a44740becace52f01a0edc82a671b99c5e955b19586718d17dad8fd.jpg"
@@ -444,12 +416,11 @@
             "Fantasy"
         ],
         "categoria": "GAME",
-        "stock": 3,
-        "precio": 18.9
+        "stock": 0,
+        "precio": 13.13
     },
-    {
+    "9": {
         "titulo": "Kingpin: Life of Crime",
-        "id": 9,
         "imagenes": {
             "portada": "https://images.gog-statics.com/59d62c9defae238c4133184ae99731a0b1fc8a5dd27a0c4cfa9276e47f429d8a.jpg",
             "fondo": "https://images.gog-statics.com/191485d25ac654edfce4b6095801dd5825a2d743f492e818a971e60b85a36dae.jpg"
@@ -461,11 +432,10 @@
         ],
         "categoria": "GAME",
         "stock": 5,
-        "precio": 43.61
+        "precio": 17.12
     },
-    {
+    "1074378828": {
         "titulo": "INDIKA: ORIGINAL SOUNDTRACK",
-        "id": 1074378828,
         "imagenes": {
             "portada": "https://images.gog-statics.com/cf14369aa579a48bfd2c75d0d87616fd9d75d221b54ff30a7bd0227d1fde3dcf.jpg",
             "fondo": "https://images.gog-statics.com/af79e1a652763f8cb29f008713c2a63ef64ceee8f70acc116aba2d8327e51fff.jpg"
@@ -477,11 +447,10 @@
         ],
         "categoria": "DLC",
         "stock": 8,
-        "precio": 56.13
+        "precio": 26.34
     },
-    {
+    "1074655820": {
         "titulo": "Deathbound Soundtrack",
-        "id": 1074655820,
         "imagenes": {
             "portada": "https://images.gog-statics.com/c89160945bb8594890bfffda77a7a97cb4d169db11ac3957ba266a470b6ee1a6.jpg",
             "fondo": "https://images.gog-statics.com/2a9ac96995ff0e7a8d93d07c1773276acb3f2b9fcbb3b7a439bc154dab7b8a1c.jpg"
@@ -492,12 +461,11 @@
             "Fantasy"
         ],
         "categoria": "DLC",
-        "stock": 11,
-        "precio": 57.88
+        "stock": 18,
+        "precio": 57.16
     },
-    {
+    "1075451204": {
         "titulo": "Curse of the Sea Rats - Original Soundtrack",
-        "id": 1075451204,
         "imagenes": {
             "portada": "https://images.gog-statics.com/04d32bbd9685daef3b95efb0f9bcbd2e13f9b4f4d55a1ae2b67258792e24853a.jpg",
             "fondo": "https://images.gog-statics.com/70659e47a16699709d8677394012ac9a442ace63251d29e28d63d151c5e3ee06.jpg"
@@ -508,12 +476,11 @@
             "Metroidvania"
         ],
         "categoria": "DLC",
-        "stock": 0,
-        "precio": 59.0
+        "stock": 11,
+        "precio": 53.67
     },
-    {
+    "1080331684": {
         "titulo": "Wall World: Deep Threat",
-        "id": 1080331684,
         "imagenes": {
             "portada": "https://images.gog-statics.com/e04edcea3becd91d32c5e5ba08d8adc607650ef2a610bb5d8062ba4df3559b6c.jpg",
             "fondo": "https://images.gog-statics.com/c42811e3a221a282a59d7f150ef0def7ebd141f6ccd50dbbbd2449406363832f.jpg"
@@ -524,12 +491,11 @@
             "Roguelike"
         ],
         "categoria": "DLC",
-        "stock": 12,
-        "precio": 49.34
+        "stock": 14,
+        "precio": 47.35
     },
-    {
+    "1081540003": {
         "titulo": "Symphony of War: The Nephilim Saga - Legends",
-        "id": 1081540003,
         "imagenes": {
             "portada": "https://images.gog-statics.com/14acbed520ef28f8faebf3b2abd78400a664a92484c0e8346e1ae5470a4961d8.jpg",
             "fondo": "https://images.gog-statics.com/fda265df73471f80334a6c9a198a45849d997704a2285825ae081d16a3a09609.jpg"
@@ -540,12 +506,11 @@
             "Role-playing"
         ],
         "categoria": "DLC",
-        "stock": 14,
-        "precio": 21.78
+        "stock": 0,
+        "precio": 16.75
     },
-    {
+    "1083727712": {
         "titulo": "The End of the Sun Demo",
-        "id": 1083727712,
         "imagenes": {
             "portada": "https://images.gog-statics.com/3edad65d33467425a70d894fa6af8919c839ec0828723b6e731c4aa9e58dedc7.jpg",
             "fondo": "https://images.gog-statics.com/48beaba64e93035cf52c8a0c4ee6d47d3001a5007d35106e681536d975dfbde6.jpg"
@@ -556,7 +521,7 @@
             "Puzzle"
         ],
         "categoria": "GAME",
-        "stock": 18,
-        "precio": 19.58
+        "stock": 15,
+        "precio": 36.3
     }
-]
+}
