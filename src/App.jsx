@@ -10,6 +10,7 @@ import Carrito from './pages/Carrito.jsx'
 import Contacto from './pages/Contacto.jsx'
 import Error404 from './pages/Error404.jsx'
 import Header from './components/Header.jsx'
+import Footer from './components/Footer.jsx'
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <Route path='/contacto' element={<Contacto/>}/>
       <Route path='*' element={<Error404/>}/>
     </Routes>
+    <Footer/>
     </>
   )
 }
