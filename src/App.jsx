@@ -9,12 +9,13 @@ import DetalleProducto from './pages/DetalleProducto.jsx'
 import Carrito from './pages/Carrito.jsx'
 import Contacto from './pages/Contacto.jsx'
 import Error404 from './pages/Error404.jsx'
+import Header from './components/Header.jsx'
 
 function App() {
 
   return (
     <>
-    <h1>asd</h1>
+    <Header/>
     <Routes>
       <Route path='/' element={<Inicio/>}/>
       <Route path='/catalogo' element={<Productos/>}/>
