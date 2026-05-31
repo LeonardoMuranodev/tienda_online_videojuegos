@@ -1,4 +1,12 @@
+import Carousel from "../components/Carousel"
+import ProductContainer from "../components/ContainerProductos"
+
 function Inicio() {
-    return <p>Inicio</p>
+    return(
+    <>
+       <Carousel/>
+       <ProductContainer/>
+    </>
+    )
 }
 export default Inicio
