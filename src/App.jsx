@@ -17,8 +17,9 @@ function App() {
     <>
     <Header/>
     <Routes>
-      <Route path='/' element={<Inicio/>}/>
+      <Route exact path='/' element={<Inicio/>}/>
       <Route path='/catalogo' element={<Productos/>}/>
+      <Route path='/catalogo/:especiales' element={<Productos/>}/>
       <Route path='/producto/:id' element={<DetalleProducto/>}/>
       <Route path='/carrito' element={<Carrito/>}/>
       <Route path='/contacto' element={<Contacto/>}/>
