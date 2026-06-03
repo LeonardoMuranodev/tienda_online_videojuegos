@@ -1,31 +1,32 @@
 import { Button, Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle, TextInput } from "flowbite-react"
-import { Form, NavLink} from "react-router"
+import { useState } from "react"
+import { Form, NavLink, Link} from "react-router"
+
+import './Header.css'
 
 function Header() {
     const navClass = "p-1 hover:font-bold active:font-bold"
     return (
         <header>
-            <Navbar fluid>
-                <NavbarBrand as={NavLink} to='/'>
-                    Logo
+            <Navbar fluid className="bg-blue-950 dark:bg-gray-950">
+                <NavbarBrand as={Link} to='/' className="h-12 md:h-16">
+                    <img src='src/data/logo.png' className="h-full"/>
                 </NavbarBrand>
-                <div>
-                    <form className="flex flex-row">
-                        <TextInput id="busqueda" type="text" placeholder="Buscar" required/><Button color="green" type="submit"> Buscar </Button>
+                
+                    <form className="flex flex-row mw-2 w-1/2 sm:w-fit">
+                        <TextInput id="busqueda" type="text" placeholder="Buscar" required className="mr-1"/><Button color="green" type="submit"> B </Button>
                     </form>
-                </div>
-                <Button outline as={NavLink} to='carrito'>
-                    
-                </Button>
+
+                    <Button outline as={Link} className="ml-2 aspect-square" to='carrito'> C </Button>
+                
             </Navbar>
-            <Navbar fluid>
-                <NavbarToggle/>
-                <NavbarCollapse>
-                    <NavbarLink as={NavLink} to='/'>Inicio</NavbarLink>
-                    <NavbarLink as={NavLink} to='/catalogo'>Catálogo</NavbarLink>
-                    <NavbarLink as={NavLink} to='/catalogo?type=nuevo'>Novedades</NavbarLink>
-                    <NavbarLink as={NavLink} to='/catalogo?type=oferta'>Ofertas</NavbarLink>
-                </NavbarCollapse>
+            <Navbar fluid className="bg-blue-300 text-gray-950 dark:bg-gray-700 dark:text-gray-300">
+                <ul className="flex flex-row align-middle">
+                    <li><NavLink to='/'>Inicio</NavLink></li>
+                    <li><NavLink to='/catalogo' end>Catálogo</NavLink></li>
+                    <li><NavLink to='/catalogo/novedades'>Novedades</NavLink></li>
+                    <li><NavLink to='/catalogo/ofertas'>Ofertas</NavLink></li>
+                </ul>
             </Navbar>
         </header>
     )
