@@ -1,10 +1,10 @@
-import Carousel from "../components/Carousel"
+import CarouselInicio from "../components/Carousel"
 import ProductContainer from "../components/ContainerProductos"
 
 function Inicio() {
     return(
     <>
-       <Carousel/>
+       <CarouselInicio/>
        <ProductContainer/>
     </>
     )
