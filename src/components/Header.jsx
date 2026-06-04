@@ -8,7 +8,7 @@ function Header() {
     const navClass = "p-1 hover:font-bold active:font-bold"
     return (
         <header>
-            <Navbar fluid className="bg-blue-950 dark:bg-gray-950">
+            <Navbar fluid className="bg-blue-900 dark:bg-gray-900">
                 <NavbarBrand as={Link} to='/' className="h-12 md:h-16">
                     <img src='src/data/logo.png' className="h-full"/>
                 </NavbarBrand>

@@ -15,7 +15,7 @@ import Footer from './components/Footer.jsx'
 function App() {
 
   return (
-    <>
+    <main className='bg-gray-800 dark:bg-zinc-950'>
     <Header/>
     <Routes>
       <Route exact path='/' element={<Inicio/>}/>
@@ -27,7 +27,7 @@ function App() {
       <Route path='*' element={<Error404/>}/>
     </Routes>
     <Footer/>
-    </>
+    </main>
   )
 }
 
