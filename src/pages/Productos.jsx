@@ -1,4 +1,7 @@
-function Productos() {
-    return <p>Productos</p>
+import ContainerProductos from "../components/ContainerProductos";
+
+export default function Productos() {
+  return (
+    <ContainerProductos />
+  );
 }
-export default Productos
