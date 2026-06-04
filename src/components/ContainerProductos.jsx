@@ -8,7 +8,7 @@ export default function ContainerProductos() {
   const productosDestacados = productos.slice(sel, sel + 5)
 
   return (
-    <section className="bg-gray-800 dark:bg-zinc-950 py-14 px-6">
+    <section className="py-14 px-6">
       <h2 className="text-4xl font-bold text-white text-center mb-12">
         Juegos Destacados
       </h2>
