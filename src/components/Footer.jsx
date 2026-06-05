@@ -4,11 +4,11 @@ import { faInstagram, faTwitter, faSquareFacebook, faTelegram, faWhatsapp } from
 function Footer() {
     const fechaActual = new Date()
     return(
-        <footer className='mt-auto bg-blue-900 dark:bg-gray-900 text-cyan-100 h-16'>
-            <div className="flex h-full items-center justify-between p-4">
+        <footer className='mt-auto w-full bg-blue-900 dark:bg-gray-900 text-cyan-100 h-32 md:h-16'>
+            <div className="flex flex-col md:flex-row h-full items-center justify-around p-1 text-[0.6rem] sm:text-lg sm:p-4">
                 <img src='src/data/logo-footer.svg' className="invert-100 h-8 fill-current dark:invert-0"/>
-                <p> Copyright {fechaActual.getFullYear()} - GameGarage</p>
-                <div className='text-2xl'> 
+                <p className='mx-4 my-2 shrink-0 text-base'> Copyright {fechaActual.getFullYear()} - GameGarage</p>
+                <div className=' flex flex-wrap align-middle justify-center-safe text-4xl'> 
                     <FontAwesomeIcon icon={faInstagram} />
                     <FontAwesomeIcon icon={faTwitter} />
                     <FontAwesomeIcon icon={faSquareFacebook} />
