@@ -4,7 +4,7 @@ import { faInstagram, faTwitter, faSquareFacebook, faTelegram, faWhatsapp } from
 function Footer() {
     const fechaActual = new Date()
     return(
-        <footer className='mt-auto w-full bg-blue-900 dark:bg-gray-900 text-cyan-100 h-32 md:h-16'>
+        <footer className='mt-auto w-full bg-blue-900 dark:bg-gray-900 text-gray-950 dark:text-cyan-100 h-32 md:h-16'>
             <div className="flex flex-col md:flex-row h-full items-center justify-around p-1 text-[0.6rem] sm:text-lg sm:p-4">
                 <img src='src/data/logo-footer.svg' className="invert-100 h-8 fill-current dark:invert-0"/>
                 <p className='mx-4 my-2 shrink-0 text-base'> Copyright {fechaActual.getFullYear()} - GameGarage</p>
