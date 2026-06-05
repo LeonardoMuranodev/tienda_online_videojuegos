@@ -1,8 +1,11 @@
 import { Button, Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle, TextInput } from "flowbite-react"
 import { useState } from "react"
 import { Form, NavLink, Link} from "react-router"
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faMagnifyingGlass, faCartShopping, faCartPlus } from "@fortawesome/free-solid-svg-icons"
+
+import Logo from '../data/logo.png'
 
 import './Header.css'
 
@@ -12,7 +15,7 @@ function Header() {
         <header>
             <Navbar fluid className="bg-blue-900 dark:bg-gray-900">
                 <NavbarBrand as={Link} to='/' className="h-12 md:h-16">
-                    <img src='src/data/logo.png' className="h-full"/>
+                    <img src={Logo} className="h-full"/>
                 </NavbarBrand>
                 
                     <form className="flex flex-row mw-2 w-1/2 sm:w-fit">
