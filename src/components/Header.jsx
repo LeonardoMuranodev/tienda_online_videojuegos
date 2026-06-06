@@ -20,12 +20,12 @@ function Header() {
                 
                     <form className="flex flex-row mw-2 w-1/2 sm:w-fit">
                         <TextInput id="busqueda" type="text" placeholder="Buscar" required className="mr-1"/>
-                        <Button color="green" type="submit" className="text-xl">
+                        <Button color="green" type="submit" className="p-0 aspect-square text-xl">
                             <FontAwesomeIcon icon={faMagnifyingGlass} />
                         </Button>
                     </form>
 
-                    <Button outline as={Link} className="ml-2 aspect-square text-xl" to='carrito'>
+                    <Button outline as={Link} className="ml-2 p-0 aspect-square text-xl bg-blue-100 dark:bg-transparent" to='carrito'>
                         <FontAwesomeIcon icon={faCartShopping} />
                     </Button>
                 
