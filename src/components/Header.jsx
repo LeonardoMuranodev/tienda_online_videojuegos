@@ -35,7 +35,7 @@ function Header() {
                     <li><NavLink to='/'>Inicio</NavLink></li>
                     <li><NavLink to='/catalogo' end>Catálogo</NavLink></li>
                     <li><NavLink to='/catalogo/novedades'>Novedades</NavLink></li>
-                    <li><NavLink to='/catalogo/ofertas'>Ofertas</NavLink></li>
+                    <li><NavLink to='/contacto'>Contacto</NavLink></li>
                 </ul>
             </Navbar>
         </header>
