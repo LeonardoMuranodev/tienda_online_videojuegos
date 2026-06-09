@@ -578,7 +578,7 @@
         "titulo": "The Equino Fighter 98",
         "id": 9999999,
         "imagenes": {
-            "portada": "src/data/images/TEF-cover.jpg",
+            "portada": "src/data/images/TEF98-cover.jpg",
             "fondo": "https://images.gog-statics.com/bc584ddf8934cac483a41a04a6d21270620c0f3b795a1eaeeb746e4684eaf891.jpg"
         },
         "etiquetas": [
