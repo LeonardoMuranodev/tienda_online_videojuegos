@@ -11,7 +11,7 @@ import Footer from './components/Footer.jsx'
 import ConfirmacionCompra from './pages/ConfirmacionCompra.jsx'
 function App() {
 
-  return (<div className='flex flex-col h-screen'>
+  return (<div className='flex flex-col min-h-screen'>
     <Header/>
     <main className='bg-gray-800 dark:bg-zinc-950 h-fit grow'>
       <Routes>
