@@ -18,7 +18,7 @@ export default function CardProducto({ producto }) {
       </div>
 
       <Link to={`/producto/${producto.id}`}>
-        <Button size="xs" gradientDuoTone="purpleToBlue" className="w-full bg-linear-to-br from-purple-700 to-blue-700">
+        <Button size="xs" gradientduotone="purpleToBlue" className="w-full bg-linear-to-br from-purple-700 to-blue-700">
           Comprar
         </Button>
       </Link>

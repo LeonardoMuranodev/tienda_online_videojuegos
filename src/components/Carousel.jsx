@@ -1,4 +1,4 @@
-import { Carousel, createTheme } from "flowbite-react"
+import { Carousel } from "flowbite-react"
 
 import { BotW, TES, WD2, FW, Cyber2077, W40k } from '../data/images'
 

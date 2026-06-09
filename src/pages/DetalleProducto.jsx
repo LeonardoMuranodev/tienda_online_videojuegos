@@ -1,11 +1,25 @@
 import { useParams } from "react-router";
 import productos from "../data/productos.json";
 import { Button } from "flowbite-react";
+import { useContext, useState } from "react";
+import { CarritoContexto } from "../context/CarritoContext";
 
 function DetalleProducto() {
   const { id } = useParams();
 
+  // Contexto glbal del carrito
+  const {agregarAlCarrito} = useContext(CarritoContexto)
+
+  const [cantidad, setCantidad] = useState(1)
+
   const producto = productos.find((p) => p.id.toString() === id);
+
+  const handleInputChange = (e) => {
+    const valor = e.target.value
+    if (valor > 0 && valor <= producto.stock) {
+      setCantidad(valor)
+    }
+  }
 
   if (!producto) {
     return <h1 className="text-white text-3xl">Producto no encontrado</h1>;
@@ -59,10 +73,11 @@ function DetalleProducto() {
               max={producto.stock}
               defaultValue="1"
               className="w-28 bg-zinc-800 border border-zinc-600 rounded-lg text-white p-2"
+              onChange={handleInputChange}
             />
           </div>
 
-          <Button gradientDuoTone="purpleToBlue">Agregar al carrito</Button>
+          <Button gradientduotone="purpleToBlue" onClick={() => agregarAlCarrito(producto, cantidad)}>Agregar al carrito</Button>
         </div>
       </div>
     </div>
