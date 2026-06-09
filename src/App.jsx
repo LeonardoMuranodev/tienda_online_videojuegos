@@ -1,7 +1,5 @@
 import { Route, Routes } from 'react-router'
 
-import './App.css'
-
 import Inicio from './pages/Inicio.jsx'
 import Productos from './pages/Productos.jsx'
 import DetalleProducto from './pages/DetalleProducto.jsx'
@@ -10,12 +8,12 @@ import Contacto from './pages/Contacto.jsx'
 import Error404 from './pages/Error404.jsx'
 import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
-
+import ConfirmacionCompra from './pages/ConfirmacionCompra.jsx'
 function App() {
 
-  return (
-    <main className='bg-gray-800 dark:bg-zinc-950'>
+  return (<div className='flex flex-col min-h-screen'>
     <Header/>
+    <main className='bg-gray-800 dark:bg-zinc-950 h-fit grow'>
       <Routes>
         <Route exact path='/' element={<Inicio/>}/>
         <Route path='/catalogo' element={<Productos/>}/>
@@ -24,9 +22,11 @@ function App() {
         <Route path='/carrito' element={<Carrito/>}/>
         <Route path='/contacto' element={<Contacto/>}/>
         <Route path='*' element={<Error404/>}/>
+        <Route path='/confirmacion-compra' element={<ConfirmacionCompra />} />
       </Routes>
-    <Footer/>
     </main>
+    <Footer/>
+    </div>
   )
 }
 

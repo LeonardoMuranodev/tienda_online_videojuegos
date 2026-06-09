@@ -1,4 +1,5 @@
 import { useParams } from "react-router";
+import { Link } from "react-router";
 import productos from "../data/productos.json";
 import { Button } from "flowbite-react";
 import { useContext, useState } from "react";
@@ -26,8 +27,18 @@ function DetalleProducto() {
   }
 
   return (
-    <div className="min-h-screen bg-zinc-950 flex justify-center items-center p-8">
-      <div className="bg-zinc-900 w-full max-w-6xl rounded-2xl shadow-2xl overflow-hidden flex flex-col md:flex-row">
+    <div className="min-h-screen bg-zinc-950 p-8">
+      
+      <div className="max-w-6xl mx-auto mb-6">
+        <Link to="/catalogo">
+          <Button color="gray">
+            ← Volver al catálogo
+          </Button>
+        </Link>
+      </div>
+
+      <div className="bg-zinc-900 w-full max-w-6xl mx-auto rounded-2xl shadow-2xl overflow-hidden flex flex-col md:flex-row">
+        
         <div className="md:w-1/2 p-6 flex justify-center items-center bg-zinc-800">
           <img
             src={producto.imagenes.portada}
@@ -37,6 +48,7 @@ function DetalleProducto() {
         </div>
 
         <div className="md:w-1/2 p-10 flex flex-col justify-center">
+          
           <span className="text-zinc-400 text-sm mb-2">
             {producto.categoria}
           </span>
@@ -65,7 +77,9 @@ function DetalleProducto() {
           </p>
 
           <div className="mb-8">
-            <label className="block text-white mb-2">Cantidad</label>
+            <label className="block text-white mb-2">
+              Cantidad
+            </label>
 
             <input
               type="number"
