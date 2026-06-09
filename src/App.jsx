@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { Route, Routes } from 'react-router'
 
 import './App.css'
@@ -11,21 +10,22 @@ import Contacto from './pages/Contacto.jsx'
 import Error404 from './pages/Error404.jsx'
 import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
-
+import ConfirmacionCompra from './pages/ConfirmacionCompra.jsx'
 function App() {
 
   return (
     <main className='bg-gray-800 dark:bg-zinc-950'>
     <Header/>
-    <Routes>
-      <Route exact path='/' element={<Inicio/>}/>
-      <Route path='/catalogo' element={<Productos/>}/>
-      <Route path='/catalogo/:especiales' element={<Productos/>}/>
-      <Route path='/producto/:id' element={<DetalleProducto/>}/>
-      <Route path='/carrito' element={<Carrito/>}/>
-      <Route path='/contacto' element={<Contacto/>}/>
-      <Route path='*' element={<Error404/>}/>
-    </Routes>
+      <Routes>
+        <Route exact path='/' element={<Inicio/>}/>
+        <Route path='/catalogo' element={<Productos/>}/>
+        <Route path='/catalogo/:especiales' element={<Productos/>}/>
+        <Route path='/producto/:id' element={<DetalleProducto/>}/>
+        <Route path='/carrito' element={<Carrito/>}/>
+        <Route path='/contacto' element={<Contacto/>}/>
+        <Route path='*' element={<Error404/>}/>
+        <Route path='/confirmacion-compra' element={<ConfirmacionCompra />} />
+      </Routes>
     <Footer/>
     </main>
   )

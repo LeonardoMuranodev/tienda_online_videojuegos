@@ -17,11 +17,19 @@ export default function CardProducto({ producto }) {
         </span>
       </div>
 
-      <Link to={`/producto/${producto.id}`}>
-        <Button size="xs" gradientDuoTone="purpleToBlue" className="w-full bg-linear-to-br from-purple-700 to-blue-700">
-          Comprar
+      {producto.stock > 0 ? (
+        <Link to={`/producto/${producto.id}`}>
+          <Button size="xs" gradientDuoTone="purpleToBlue" className="w-full"
+          >
+            Comprar
+          </Button>
+        </Link>
+      ) : (
+        <Button size="xs" disabled color="gray" className="w-full"
+        >
+          Sin stock
         </Button>
-      </Link>
+      )}
     </Card>
   );
 }
