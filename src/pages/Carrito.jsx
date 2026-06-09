@@ -8,7 +8,7 @@ function Carrito() {
 
     const precioTotal = carrito.map(c => c.cantidad * c.precio).reduce((acum, sum) => acum + sum, 0).toFixed(2)
     return (
-        <section className="p-8">
+        <section className="p-8 h-full">
             <h3 className="text-2xl text-white font-bold mb-6">Mi Carrito</h3>
             
             <ul className="flex flex-col gap-4 mb-6">
