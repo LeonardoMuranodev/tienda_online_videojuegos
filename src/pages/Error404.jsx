@@ -22,7 +22,7 @@ function Error404() {
         <div className="flex justify-center gap-4 flex-wrap">
           
           <Link to="/">
-            <Button gradientDuoTone="purpleToBlue">
+            <Button className="bg-linear-to-br from-purple-600 to-blue-500 text-white hover:bg-linear-to-bl focus:ring-blue-300 dark:focus:ring-blue-800">
               Ir al inicio
             </Button>
           </Link>

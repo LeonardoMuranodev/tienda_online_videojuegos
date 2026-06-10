@@ -19,7 +19,7 @@ export default function CardProducto({ producto }) {
 
       {producto.stock > 0 ? (
         <Link to={`/producto/${producto.id}`}>
-          <Button size="xs" gradientDuoTone="purpleToBlue" className="w-full"
+          <Button size="xs" className="w-full bg-linear-to-br from-purple-600 to-blue-500 text-white hover:bg-linear-to-bl focus:ring-blue-300 dark:focus:ring-blue-800"
           >
             Comprar
           </Button>

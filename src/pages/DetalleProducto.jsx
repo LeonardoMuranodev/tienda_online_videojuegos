@@ -91,7 +91,7 @@ function DetalleProducto() {
             />
           </div>
 
-          <Button gradientduotone="purpleToBlue" onClick={() => agregarAlCarrito(producto, cantidad)}>Agregar al carrito</Button>
+          <Button className="bg-linear-to-br from-purple-600 to-blue-500 text-white hover:bg-linear-to-bl focus:ring-blue-300 dark:focus:ring-blue-800" onClick={() => agregarAlCarrito(producto, cantidad)}>Agregar al carrito</Button>
         </div>
       </div>
     </div>
