@@ -6,7 +6,7 @@ import productos from "../data/productos.json";
 export default function ContainerProductos() {
   const location = useLocation();
 
-  var sel = Math.floor(Math.random() * (productos.length - 10))
+  var sel = Math.floor(Math.random() * (productos.length - 5))
 
   const productosDestacados = productos.slice(sel, sel + 5)
 
