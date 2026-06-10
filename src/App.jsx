@@ -9,6 +9,9 @@ import Error404 from './pages/Error404.jsx'
 import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
 import ConfirmacionCompra from './pages/ConfirmacionCompra.jsx'
+import { TerminosYCondiciones } from './pages/TerminosyCondiciones.jsx'
+import { PoliticaDePrivacidad } from './pages/PoliticaDePrivacidad.jsx'
+
 function App() {
 
   return (<div className='flex flex-col min-h-screen'>
@@ -21,6 +24,8 @@ function App() {
         <Route path='/producto/:id' element={<DetalleProducto/>}/>
         <Route path='/carrito' element={<Carrito/>}/>
         <Route path='/contacto' element={<Contacto/>}/>
+        <Route path='/terminos-y-condiciones' element={<TerminosYCondiciones/>}/>
+        <Route path='/politica-de-privacidad' element={<PoliticaDePrivacidad/>}/>
         <Route path='*' element={<Error404/>}/>
         <Route path='/confirmacion-compra' element={<ConfirmacionCompra />} />
       </Routes>
