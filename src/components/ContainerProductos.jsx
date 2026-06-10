@@ -2,28 +2,46 @@ import { useLocation } from "react-router";
 
 import CardProducto from "./Card";
 import productos from "../data/productos.json";
+import Filtro from "../pages/Filtro.jsx";
+import { filtrarProductos, useBusqueda } from "../pages/Buscador.jsx";
 
 export default function ContainerProductos() {
   const location = useLocation();
+  const esCatalogo = location.pathname === "/catalogo";
+  const { textoBusqueda, generoSeleccionado, ordenPrecio } = useBusqueda();
 
-  var sel = Math.floor(Math.random() * (productos.length - 5))
+  const sel = Math.floor(Math.random() * (productos.length - 10));
+  const productosDestacados = productos.slice(sel, sel + 5);
 
-  const productosDestacados = productos.slice(sel, sel + 5)
+  const show = esCatalogo
+    ? filtrarProductos(productos, {
+        textoBusqueda,
+        generoSeleccionado,
+        ordenPrecio,
+      })
+    : productosDestacados;
 
-  const show = (location.pathname == '/catalogo') ? productos : productosDestacados;
-
-  console
   return (
-    <section className="py-14 px-6">
-      <h2 className="text-4xl font-bold text-white text-center mb-12">
-        {(location.pathname == '/catalogo')? "Catálogo" : "Juegos destacados"}
-      </h2>
+    <>
+      {esCatalogo && <Filtro />}
 
-      <div className="flex flex-wrap justify-center gap-8">
-        {show.map((producto) => (
-          <CardProducto key={producto.id} producto={producto} />
-        ))}
-      </div>
-    </section>
+      <section className="py-14 px-6">
+        <h2 className="text-4xl font-bold text-white text-center mb-12">
+          {esCatalogo ? "Catálogo" : "Juegos destacados"}
+        </h2>
+
+        {esCatalogo && show.length === 0 && (
+          <p className="text-center text-zinc-400 mb-8">
+            No se encontraron productos con los filtros seleccionados.
+          </p>
+        )}
+
+        <div className="flex flex-wrap justify-center gap-8">
+          {show.map((producto) => (
+            <CardProducto key={producto.id} producto={producto} />
+          ))}
+        </div>
+      </section>
+    </>
   );
 }
