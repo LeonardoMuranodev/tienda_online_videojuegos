@@ -1,11 +1,11 @@
 import { createContext, useContext, useState } from "react";
 import { TextInput } from "flowbite-react";
-import catalogo from "../data/productos.json";
+import Productos from "../data/productos.jsx";
 
 const BusquedaContext = createContext(null);
 
 export const generosDisponibles = [
-  ...new Set(catalogo.flatMap((p) => p.etiquetas)),
+  ...new Set(Productos.flatMap((p) => p.etiquetas)),
 ].sort();
 
 export function coincideBusqueda(producto, texto) {

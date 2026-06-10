@@ -1,6 +1,6 @@
 import { useParams } from "react-router";
 import { Link } from "react-router";
-import productos from "../data/productos.json";
+import Productos from "../data/productos.jsx";
 import { Button } from "flowbite-react";
 import { useContext, useState } from "react";
 import { CarritoContexto } from "../context/CarritoContext";
@@ -13,7 +13,7 @@ function DetalleProducto() {
 
   const [cantidad, setCantidad] = useState(1)
 
-  const producto = productos.find((p) => p.id.toString() === id);
+  const producto = Productos.find((p) => p.id.toString() === id);
 
   const handleInputChange = (e) => {
     const valor = e.target.value

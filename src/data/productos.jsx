@@ -1,4 +1,7 @@
-[
+import silentGilCover from './images/SG3-cover.jpg'
+import equinoFighterCover from './images/TEF98-cover.jpg'
+
+const Productos = [
     {
         "titulo": "MDK 2",
         "id": 1207658645,
@@ -1781,5 +1784,37 @@
         "categoria": "GAME",
         "stock": 11,
         "precio": 54.44
+    },
+    {
+        "titulo": "Silencio Gil 3",
+        "id": 0,
+        "imagenes": {
+            "portada": silentGilCover,
+            "fondo": "https://images.gog-statics.com/bc584ddf8934cac483a41a04a6d21270620c0f3b795a1eaeeb746e4684eaf891.jpg"
+        },
+        "etiquetas": [
+            "Adventure",
+            "Puzzle"
+        ],
+        "categoria": "GAME",
+        "stock": 1,
+        "precio": 34.99
+    },
+    {
+        "titulo": "The Equino Fighter 98",
+        "id": 9999999,
+        "imagenes": {
+            "portada": equinoFighterCover,
+            "fondo": "https://images.gog-statics.com/bc584ddf8934cac483a41a04a6d21270620c0f3b795a1eaeeb746e4684eaf891.jpg"
+        },
+        "etiquetas": [
+            "Fighting",
+            "Horse"
+        ],
+        "categoria": "GAME",
+        "stock": 1,
+        "precio": 59.49
     }
 ]
+
+export default Productos
