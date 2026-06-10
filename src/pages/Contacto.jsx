@@ -14,7 +14,7 @@ function Contacto() {
     }
 
     return (
-        <section className="flex flex-col items-center p-8 bg-blue-100">
+        <section className="flex flex-col items-center p-8 bg-blue-100 dark:bg-gray-800">
             <h3 className="text-4xl font-bold text-zinc-950 dark:text-gray-50 text-center mb-12">
                 Formulario de contacto
             </h3>
