@@ -7,3 +7,35 @@
 @import "tailwindcss";
 @import "flowbite-react/plugin/tailwindcss";
 @source "../.flowbite-react/class-list.json";
+
+
+/* Para nla politica de privacidd y terminos*/
+/* Usamos el tag + la clase para que tenga más peso que una clase sola */
+article.docu-container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    gap: 3rem;
+}
+
+.docu-container-div {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.docu {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: rgb(206, 197, 197);
+}
+
+.docu-item-span {
+    font-weight: bold;
+    color: gray;
+}
