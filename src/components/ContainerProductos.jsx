@@ -1,7 +1,7 @@
 import { useLocation } from "react-router";
 
 import CardProducto from "./Card";
-import productos from "../data/productos.json";
+import Productos from "../data/productos.jsx";
 import Filtro from "../pages/Filtro.jsx";
 import { filtrarProductos, useBusqueda } from "../pages/Buscador.jsx";
 
@@ -10,12 +10,12 @@ export default function ContainerProductos() {
   const esCatalogo = location.pathname === "/catalogo";
   const { textoBusqueda, generoSeleccionado, ordenPrecio } = useBusqueda();
 
-  const productosEnStock = productos.filter(producto => producto.stock > 0)
+  const productosEnStock = Productos.filter(producto => producto.stock > 0)
   const sel = Math.floor(Math.random() * (productosEnStock.length - 5));
   const productosDestacados = productosEnStock.slice(sel, sel + 5);
 
   const show = esCatalogo
-    ? filtrarProductos(productos, {
+    ? filtrarProductos(Productos, {
         textoBusqueda,
         generoSeleccionado,
         ordenPrecio,
