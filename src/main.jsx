@@ -4,12 +4,15 @@ import './index.css'
 import App from './App.jsx'
 import { BrowserRouter } from 'react-router'
 import { CarritoProvider } from './context/CarritoProvider.jsx'
+import { BusquedaProvider } from './pages/Buscador.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
       <CarritoProvider>
-        <App />
+        <BusquedaProvider>
+          <App />
+        </BusquedaProvider>
       </CarritoProvider>
     </BrowserRouter>
   </StrictMode>,

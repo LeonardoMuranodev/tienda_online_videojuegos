@@ -1,16 +1,22 @@
-import { Button, Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle, TextInput } from "flowbite-react"
-import { useState } from "react"
-import { Form, NavLink, Link} from "react-router"
+import { Button, Navbar, NavbarBrand } from "flowbite-react"
+import { NavLink, Link, useNavigate } from "react-router"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faMagnifyingGlass, faCartShopping, faCartPlus } from "@fortawesome/free-solid-svg-icons"
+import { faMagnifyingGlass, faCartShopping } from "@fortawesome/free-solid-svg-icons"
 
 import Logo from '../data/logo.png'
+import Buscador from '../pages/Buscador.jsx'
 
 import './Header.css'
 
 function Header() {
-    const navClass = "p-1 hover:font-bold active:font-bold"
+    const navigate = useNavigate()
+
+    const handleBusqueda = (e) => {
+        e.preventDefault()
+        navigate('/catalogo')
+    }
+
     return (
         <header>
             <Navbar fluid className="bg-blue-900 dark:bg-gray-900">
@@ -18,8 +24,8 @@ function Header() {
                     <img src={Logo} className="h-full"/>
                 </NavbarBrand>
                 
-                    <form className="flex flex-row mw-2 w-1/2 sm:w-fit">
-                        <TextInput id="busqueda" type="text" placeholder="Buscar" required className="mr-1"/>
+                    <form onSubmit={handleBusqueda} className="flex flex-row mw-2 w-1/2 sm:w-fit">
+                        <Buscador className="mr-1"/>
                         <Button color="green" type="submit" className="p-0 aspect-square text-xl">
                             <FontAwesomeIcon icon={faMagnifyingGlass} />
                         </Button>
