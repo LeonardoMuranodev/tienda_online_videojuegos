@@ -1,6 +1,9 @@
-import {Label, TextInput, Checkbox, Button, HelperText, Textarea, Select} from "flowbite-react"
+import {Label, TextInput, Checkbox, Button, HelperText, Textarea, Select, createTheme, ThemeProvider} from "flowbite-react"
 import { Link } from "react-router";
 import { useForm } from "react-hook-form";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { faDisplay, faGamepad } from "@fortawesome/free-solid-svg-icons";
 
 function Contacto() {
 
@@ -10,10 +13,9 @@ function Contacto() {
         console.log("Formulario enviado")
     }
 
-
     return (
-        <section className="flex flex-col items-center p-8">
-            <h3 className="text-4xl font-bold text-white text-center mb-12">
+        <section className="flex flex-col items-center p-8 bg-blue-100 dark:bg-gray-800">
+            <h3 className="text-4xl font-bold text-zinc-950 dark:text-gray-50 text-center mb-12">
                 Formulario de contacto
             </h3>
             <form onSubmit={handleSubmit(FormSubmit)} className="flex max-w-md flex-col gap-4" noValidate>
@@ -51,7 +53,7 @@ function Contacto() {
                     id="email" 
                     type="email" 
                     placeholder="johndoe@gmail.com" 
-                    addon="📩" 
+                    addon={<FontAwesomeIcon icon={ faEnvelope } />} 
                     shadow
                     color={errors.email ? "failure" :"success"}
                     />
@@ -69,7 +71,7 @@ function Contacto() {
                     id="videojuego" 
                     type="text" 
                     placeholder="MDK 2" 
-                    addon="🎮" 
+                    addon={<FontAwesomeIcon icon={faGamepad} />} 
                     color={errors.videojuego ? "failure" :"success"}
                     shadow />
                     <HelperText>
@@ -78,9 +80,9 @@ function Contacto() {
                 </div>
                 <div className="max-w-md">
                     <div className="mb-2 block">
-                        <Label htmlFor="countries">Consola (si aplica)</Label>
+                        <Label htmlFor="plataform">Plataforma (si aplica)</Label>
                     </div>
-                    <Select addon="📺" id="countries">
+                    <Select addon={<FontAwesomeIcon icon={ faDisplay } />} id="plataform">
                         <option>Consola</option>
                         <option>PC</option>
                         <option>PS 1</option>
