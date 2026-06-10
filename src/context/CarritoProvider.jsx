@@ -13,20 +13,42 @@ export const CarritoProvider  = ({children}) => {
         console.log("Carrito", carrito)
     }, [carrito]);
 
-    // Cantidad porque podemos agregar mas de uno a la vez
     const agregarAlCarrito = (juego, cantidad = 1) => {
+
         const indiceProducto = carrito.findIndex(j => j.id === juego.id)
+
         const cantidadNumero = Number(cantidad)
 
-
         if (indiceProducto >= 0) {
+
             const nuevoCarrito = structuredClone(carrito)
-            nuevoCarrito[indiceProducto].cantidad += cantidadNumero
+
+            const nuevaCantidad =
+                nuevoCarrito[indiceProducto].cantidad + cantidadNumero
+
+            if (nuevaCantidad > juego.stock) {
+                return
+            }
+
+            if (nuevaCantidad <= 0) {
+                return
+            }
+
+            nuevoCarrito[indiceProducto].cantidad = nuevaCantidad
+
             setCarrito(nuevoCarrito)
+
             return
         }
 
-        // Si no esta la cantidad es uno
+        if (cantidadNumero > juego.stock) {
+            return
+        }
+
+        if (cantidadNumero <= 0) {
+            return
+        }
+
         setCarrito(carritoPrevio => ([
             ...carritoPrevio,
             {
@@ -37,12 +59,21 @@ export const CarritoProvider  = ({children}) => {
     }
 
     const sacarUnoDelCarrito = (juego) => {
+
         const indiceProducto = carrito.findIndex(j => j.id === juego.id)
 
         if (indiceProducto >= 0) {
+
             const nuevoCarrito = structuredClone(carrito)
+
+            if (nuevoCarrito[indiceProducto].cantidad <= 1) {
+                return
+            }
+
             nuevoCarrito[indiceProducto].cantidad -= 1
+
             setCarrito(nuevoCarrito)
+
             return
         }
     }
@@ -54,10 +85,14 @@ export const CarritoProvider  = ({children}) => {
 
     const limpiarCarrito = () => setCarrito([])
 
-
-    //Esto es desestructuracion con children
     return (
-        <CarritoContexto.Provider value={{carrito, agregarAlCarrito, sacarUnoDelCarrito, eliminarDelCarrito, limpiarCarrito}}>
+        <CarritoContexto.Provider value={{
+            carrito,
+            agregarAlCarrito,
+            sacarUnoDelCarrito,
+            eliminarDelCarrito,
+            limpiarCarrito
+        }}>
             {children}
         </CarritoContexto.Provider>
     )
