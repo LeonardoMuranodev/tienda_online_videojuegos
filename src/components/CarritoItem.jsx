@@ -21,13 +21,13 @@ export const CarritoItem = ({juego}) => {
 
                 <div className="flex items-center gap-4">
                     <div className="flex items-center gap-2">
-                        <Button onClick={() => sacarUnoDelCarrito(juego)} size="xs" gradientDuoTone="purpleToBlue">
+                        <Button onClick={() => sacarUnoDelCarrito(juego)} size="xs" className="bg-linear-to-br from-purple-600 to-blue-500 text-white hover:bg-linear-to-bl focus:ring-blue-300 dark:focus:ring-blue-800">
                             -
                         </Button>
                         
                         <span className="w-8 text-center font-bold">{juego.cantidad}</span>
                         
-                        <Button onClick={() => agregarAlCarrito(juego, 1)} size="xs" gradientDuoTone="purpleToBlue">
+                        <Button onClick={() => agregarAlCarrito(juego, 1)} size="xs" className="bg-linear-to-br from-purple-600 to-blue-500 text-white hover:bg-linear-to-bl focus:ring-blue-300 dark:focus:ring-blue-800">
                             +
                         </Button>
                     </div>
