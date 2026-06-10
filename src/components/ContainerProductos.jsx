@@ -11,7 +11,7 @@ export default function ContainerProductos() {
   const { textoBusqueda, generoSeleccionado, ordenPrecio } = useBusqueda();
 
   const sel = Math.floor(Math.random() * (productos.length - 10));
-  const productosDestacados = productos.slice(sel, sel + 5);
+  const productosDestacados = productos.filter(producto => producto.stock > 0).slice(sel, sel + 5);
 
   const show = esCatalogo
     ? filtrarProductos(productos, {
