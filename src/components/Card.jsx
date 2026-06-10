@@ -5,11 +5,11 @@ export default function CardProducto({ producto }) {
   const enStock = producto.stock > 0
   return (
     <Card
-      className={"flex flex-col sm:w-48 w-32 bg-blue-400 dark:bg-zinc-900  rounded-xl overflow-hidden shadow-md".concat(" ", enStock? "border border-zinc-700 hover:scale-105 transition-all duration-300" : " border-none cursor-not-allowed")}
+      className={"flex flex-col sm:w-48 w-32   rounded-xl overflow-hidden shadow-md".concat(" ", enStock? "bg-blue-400 dark:bg-zinc-900 border border-zinc-700 hover:scale-105 transition-all duration-300" : " border-none cursor-not-allowed bg-gray-600 dark:bg-zinc-900")}
       //imgSrc={producto.imagenes.portada}
       renderImage={() => <img src={producto.imagenes.portada} alt={"Portada de".concat(" ", producto.titulo)} className={enStock? "" : "grayscale brightness-50"} />}
     >
-      <h5 className={"text-sm font-bold text-center m-auto min-h-fit".concat(" ", enStock? " text-zinc-950 dark:text-gray-50" : "text-gray-100 dark:text-zinc-600" )}>
+      <h5 className={"text-sm font-bold text-center m-auto min-h-fit".concat(" ", enStock? " text-zinc-950 dark:text-gray-50" : "text-gray-800 dark:text-zinc-600" )}>
         {producto.titulo}
       </h5>
 
