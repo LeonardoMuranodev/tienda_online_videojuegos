@@ -1099,22 +1099,6 @@
         "precio": 19.6
     },
     {
-        "titulo": "Lust From Beyond - The Full Set",
-        "id": 1150329801,
-        "imagenes": {
-            "portada": "https://images.gog-statics.com/48939d8b5cc6784e19d206eba9d2694c1756a4e1f4f2c22db31292658c031e14.jpg",
-            "fondo": "https://images.gog-statics.com/90948ca17dd915a6a7e71b8255ab9f1fedcb3108367b647127915865b6111ecd.jpg"
-        },
-        "etiquetas": [
-            "Action",
-            "Adventure",
-            "Puzzle"
-        ],
-        "categoria": "PACK",
-        "stock": 0,
-        "precio": 21.98
-    },
-    {
         "titulo": "Warhammer 40,000: Rogue Trader - Void Shadows",
         "id": 1150901814,
         "imagenes": {
@@ -1129,22 +1113,6 @@
         "categoria": "DLC",
         "stock": 5,
         "precio": 10.48
-    },
-    {
-        "titulo": "The Legend of Heroes: Trails through Daybreak - Costume Set",
-        "id": 1151088831,
-        "imagenes": {
-            "portada": "https://images.gog-statics.com/f115bc5c0add2fbac7e68a2d890f618a5f59a81ffa24743a3e05506fb7b839c6.jpg",
-            "fondo": "https://images.gog-statics.com/b37bdb441086db1944d0e3bd19f93e987ea3a45cf39b1e388e3fe15380c3d412.jpg"
-        },
-        "etiquetas": [
-            "Action",
-            "Role-playing",
-            "JRPG"
-        ],
-        "categoria": "DLC",
-        "stock": 19,
-        "precio": 31.91
     },
     {
         "titulo": "Kao the Kangaroo - Bend the Rooles",
@@ -1448,22 +1416,6 @@
         "categoria": "DLC",
         "stock": 11,
         "precio": 51.42
-    },
-    {
-        "titulo": "Womanazers Pack",
-        "id": 1182625714,
-        "imagenes": {
-            "portada": "https://images.gog-statics.com/eaeb95b8169ae79f2a2e7b190cff74df8f2f075ef3484c3fee5dcaa21995efd7.jpg",
-            "fondo": "https://images.gog-statics.com/1589084a559a376309ca4593201b99c46bf06c569cb45b076ae8ae07395488e8.jpg"
-        },
-        "etiquetas": [
-            "Adventure",
-            "Narrative",
-            "Visual Novel"
-        ],
-        "categoria": "PACK",
-        "stock": 16,
-        "precio": 51.91
     },
     {
         "titulo": "Wingspan: Asia Expansion",
