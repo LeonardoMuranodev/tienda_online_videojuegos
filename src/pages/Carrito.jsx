@@ -8,8 +8,8 @@ function Carrito() {
 
     const precioTotal = carrito.map(c => c.cantidad * c.precio).reduce((acum, sum) => acum + sum, 0).toFixed(2)
     return (
-        <section className="p-8 h-full">
-            <h3 className="text-2xl text-white font-bold mb-6">Mi Carrito</h3>
+        <section className="p-8 h-full text-center text-gray-200 dark:text-gray-50">
+            <h3 className="text-2xl font-bold mb-6">Mi Carrito</h3>
             
             <ul className="flex flex-col gap-4 mb-6">
                 {carrito.map(juego => (
@@ -19,7 +19,11 @@ function Carrito() {
                     />
                 ))}
             </ul>
-
+            {
+                carrito.length <= 0 && (
+                    <h4>Tu carrito está vacio... ¿no quieres <Link to="/catalogo" className="text-cyan-600 hover:underline dark:text-cyan-500"> agregar algunos juegos</Link>? </h4>
+                )
+            }
             {carrito.length > 0 && (
 
                 
