@@ -16,7 +16,7 @@ function App() {
 
   return (<div className='flex flex-col min-h-screen'>
     <Header/>
-    <main className='bg-gray-800 dark:bg-zinc-950 h-fit grow'>
+    <main className='bg-blue-100 dark:bg-zinc-900 text-zinc-900 dark:text-cyan-50 h-fit grow'>
       <Routes>
         <Route exact path='/' element={<Inicio/>}/>
         <Route path='/catalogo' element={<Productos/>}/>

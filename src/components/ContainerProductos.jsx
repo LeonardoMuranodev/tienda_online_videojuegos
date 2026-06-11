@@ -27,7 +27,7 @@ export default function ContainerProductos() {
       {esCatalogo && <Filtro />}
 
       <section className="py-14 px-6">
-        <h2 className="text-4xl font-bold text-white text-center mb-12">
+        <h2 className="text-4xl font-bold text-center mb-12">
           {esCatalogo ? "Catálogo" : "Juegos destacados"}
         </h2>
 

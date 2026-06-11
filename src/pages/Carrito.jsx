@@ -8,7 +8,7 @@ function Carrito() {
 
     const precioTotal = carrito.map(c => c.cantidad * c.precio).reduce((acum, sum) => acum + sum, 0).toFixed(2)
     return (
-        <section className="p-8 h-full text-center text-gray-200 dark:text-gray-50">
+        <section className="p-8 h-full text-center">
             <h3 className="text-2xl font-bold mb-6">Mi Carrito</h3>
             
             <ul className="flex flex-col gap-4 mb-6">
@@ -27,9 +27,9 @@ function Carrito() {
             {carrito.length > 0 && (
 
                 
-                <div className="flex flex-col md:flex-row items-center justify-between bg-zinc-800 p-6 rounded-xl mt-8">
-                    <p className="text-white text-2xl font-bold mb-4 md:mb-0">
-                        Total: <span className="text-green-400">${precioTotal}</span>
+                <div className="flex flex-col md:flex-row items-center justify-between bg-blue-400 dark:bg-zinc-800 p-6 rounded-xl mt-8">
+                    <p className=" text-2xl font-bold mb-4 md:mb-0">
+                        Total: <span className=" text-green-900 dark:text-green-400">${precioTotal}</span>
                     </p>
 
                     <div className="flex gap-4">
