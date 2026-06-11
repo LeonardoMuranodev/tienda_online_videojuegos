@@ -5,12 +5,12 @@ import { faCartShopping, faCheck, faCheckDouble } from "@fortawesome/free-solid-
 
 function ConfirmacionCompra() {
   return (
-    <div className="min-h-screen flex items-center justify-center px-6">
+    <div className="min-h-full grow flex items-center justify-center px-6">
       
       <div className="text-center max-w-2xl">
         
         <h1 className="text-6xl md:text-7xl font-extrabold text-green-500 mb-4">
-          <FontAwesomeIcon icon={faCartShopping} /><FontAwesomeIcon className="text-4xl -ml-7" icon={faCheckDouble} />
+          <FontAwesomeIcon icon={faCartShopping} /><FontAwesomeIcon className="text-4xl -ml-5 md:-ml-7" icon={faCheckDouble} />
         </h1>
 
         <h2 className="text-3xl md:text-5xl font-bold mb-6">
