@@ -8,7 +8,7 @@ export const CarritoItem = ({juego}) => {
 
     return (
         <>
-            <li className="flex flex-row items-center justify-between p-4 bg-blue-400 dark:bg-zinc-800 rounded-xl shadow-md">
+            <li className="flex flex-col sm:flex-row items-center justify-between p-4 bg-blue-400 dark:bg-zinc-800 rounded-xl shadow-md">
                 
                 <div className="w-24">
                     <img src={juego.imagenes.portada} alt={juego.titulo} className="rounded-md w-full object-cover" />
@@ -32,7 +32,7 @@ export const CarritoItem = ({juego}) => {
                         </Button>
                     </div>
 
-                    <div className="text-center w-32">
+                    <div className="text-center w-32 flex items-center sm:flex-col">
                         <p className="text-green-800 dark:text-green-400 font-bold mb-2">
                             Subtotal: ${(juego.precio * juego.cantidad).toFixed(2)}
                         </p>
