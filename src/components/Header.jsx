@@ -9,7 +9,7 @@ import { faMagnifyingGlass, faCartShopping } from "@fortawesome/free-solid-svg-i
 import { CarritoContexto } from "../context/CarritoContext"
 
 import Logo from '../data/logo.png'
-import Buscador from '../pages/Buscador.jsx'
+import Buscador from './Buscador.jsx'
 
 import './Header.css'
 

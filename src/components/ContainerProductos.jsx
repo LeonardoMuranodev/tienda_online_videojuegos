@@ -2,8 +2,9 @@ import { useLocation } from "react-router";
 
 import CardProducto from "./Card";
 import Productos from "../data/productos.jsx";
-import Filtro from "../pages/Filtro.jsx";
-import { filtrarProductos, useBusqueda } from "../pages/Buscador.jsx";
+//import Filtro from "../pages/Filtro.jsx";
+import Filtro from "./Filtro.jsx";
+import { filtrarProductos, useBusqueda } from "./Buscador.jsx";
 
 export default function ContainerProductos() {
   const location = useLocation();
