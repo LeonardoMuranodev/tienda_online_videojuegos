@@ -1,7 +1,7 @@
 import silentGilCover from './images/SG3-cover.jpg'
 import equinoFighterCover from './images/TEF98-cover.jpg'
 import batmanAbasto from './images/BAK-cover.jpg'
-import rockSim from './images/RS2014-cover.jpg'
+import rockSim from './images/RS2014-cover.png'
 
 const Productos = [
     {
