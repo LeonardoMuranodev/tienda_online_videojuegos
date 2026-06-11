@@ -11,16 +11,15 @@ export default function Filtro() {
 
   return (
     <section className="px-6 pt-8">
-      <div className="mx-auto flex max-w-4xl flex-col gap-4 rounded-xl border border-zinc-700 bg-zinc-900 p-4 sm:flex-row sm:items-end sm:justify-center">
+      <div className="mx-auto flex max-w-4xl flex-col gap-4 rounded-xl border bg-blue-400 border-blue-600 dark:border-zinc-700 dark:bg-zinc-800 p-4 sm:flex-row sm:items-end sm:justify-center">
         <div className="w-full sm:w-56">
-          <Label htmlFor="filtro-genero" className="mb-2 text-white">
+          <Label htmlFor="filtro-genero" className="mb-2">
             Género
           </Label>
           <Select
             id="filtro-genero"
             value={generoSeleccionado}
             onChange={(e) => setGeneroSeleccionado(e.target.value)}
-            className="bg-zinc-800 text-white"
           >
             <option value="">Todos los géneros</option>
             {generosDisponibles.map((genero) => (
@@ -32,14 +31,13 @@ export default function Filtro() {
         </div>
 
         <div className="w-full sm:w-56">
-          <Label htmlFor="filtro-precio" className="mb-2 text-white">
+          <Label htmlFor="filtro-precio" className="mb-2">
             Precio
           </Label>
           <Select
             id="filtro-precio"
             value={ordenPrecio}
             onChange={(e) => setOrdenPrecio(e.target.value)}
-            className="bg-zinc-800 text-white"
           >
             <option value="">Sin ordenar</option>
             <option value="menor">Menor precio</option>
