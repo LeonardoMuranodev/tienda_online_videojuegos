@@ -39,7 +39,7 @@ function DetalleProducto() {
 
       <div className="bg-blue-400 dark:bg-zinc-900 w-full max-w-6xl mx-auto rounded-2xl shadow-2xl overflow-hidden flex flex-col md:flex-row">
         
-        <div className="md:w-1/2 p-6 flex justify-center items-center bg-blue-500 dark:bg-zinc-800">
+        <div className="md:w-1/2 p-6 flex justify-center items-center bg-blue-500 dark:bg-zinc-700">
           <img
             src={producto.imagenes.portada}
             alt={producto.titulo}
