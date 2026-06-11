@@ -4,6 +4,8 @@ import Productos from "../data/productos.jsx";
 import { Button } from "flowbite-react";
 import { useContext, useState } from "react";
 import { CarritoContexto } from "../context/CarritoContext";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleLeft } from "@fortawesome/free-solid-svg-icons";
 
 function DetalleProducto() {
   const { id } = useParams();
@@ -23,16 +25,27 @@ function DetalleProducto() {
   }
 
   if (!producto) {
-    return <h1 className="text-3xl">Producto no encontrado</h1>;
+    return (
+    <div className="min-h-full p-8 flex flex-col">
+      <h1 className="text-3xl text-center">Producto no encontrado</h1>
+      <div className="max-w-6xl mx-auto mt-6">
+        <Link to="/catalogo">
+          <Button color="gray">
+            <FontAwesomeIcon icon={faAngleLeft} /> Volver al catálogo
+          </Button>
+        </Link>
+      </div>
+    </div>
+    )
   }
 
   return (
-    <div className="min-h-screen p-8">
+    <div className="min-h-full p-8">
       
       <div className="max-w-6xl mx-auto mb-6">
         <Link to="/catalogo">
           <Button color="gray">
-            ← Volver al catálogo
+             <FontAwesomeIcon icon={faAngleLeft} /> Volver al catálogo
           </Button>
         </Link>
       </div>
