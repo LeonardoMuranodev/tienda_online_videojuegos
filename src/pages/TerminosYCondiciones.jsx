@@ -2,7 +2,7 @@ import { List, ListItem } from "flowbite-react";
 
 export function TerminosYCondiciones() {
     return (
-        <article className="docu-container">
+        <article className="docu-container w-full">
             <h4 className="text-4xl font-bold text-center mb-12">
                     Términos y condiciones de Game Garage
             </h4>
