@@ -1,5 +1,7 @@
 import silentGilCover from './images/SG3-cover.jpg'
 import equinoFighterCover from './images/TEF98-cover.jpg'
+import batmanAbasto from './images/BAK-cover.jpg'
+import rockSim from './images/RS2014-cover.jpg'
 
 const Productos = [
     {
@@ -1799,6 +1801,36 @@ const Productos = [
         "categoria": "GAME",
         "stock": 1,
         "precio": 34.99
+    },
+    {
+        "titulo": "Batman - Abasto Knight",
+        "id": 1996,
+        "imagenes": {
+            "portada": batmanAbasto,
+            "fondo": "https://images.gog-statics.com/bc584ddf8934cac483a41a04a6d21270620c0f3b795a1eaeeb746e4684eaf891.jpg"
+        },
+        "etiquetas": [
+            "Action",
+            "TPP"
+        ],
+        "categoria": "GAME",
+        "stock": 1,
+        "precio": 79.95
+    },
+    {
+        "titulo": "Rock silulator 2014",
+        "id": 95,
+        "imagenes": {
+            "portada": rockSim,
+            "fondo": "https://images.gog-statics.com/bc584ddf8934cac483a41a04a6d21270620c0f3b795a1eaeeb746e4684eaf891.jpg"
+        },
+        "etiquetas": [
+            "Simulation",
+            "Roguelike"
+        ],
+        "categoria": "GAME",
+        "stock": 5,
+        "precio": 14.99
     },
     {
         "titulo": "The Equino Fighter 98",
