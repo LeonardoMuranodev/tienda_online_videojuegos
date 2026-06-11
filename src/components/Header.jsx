@@ -38,10 +38,10 @@ function Header() {
                     <img src={Logo} className="h-full"/>
                 </NavbarBrand>
 
-                <form onSubmit={handleBusqueda} className="flex flex-row mw-2 w-1/2 sm:w-fit">
+                <form onSubmit={handleBusqueda} className="flex flex-row align-middle mw-2 w-1/2 sm:w-fit">
                     <Buscador className="mr-1"/>
 
-                    <Button color="green" type="submit" className="p-0 aspect-square text-xl">
+                    <Button color="green" type="submit" className="p-0 aspect-square text-xl my-auto">
                         <FontAwesomeIcon icon={faMagnifyingGlass} />
                     </Button>
                 </form>
