@@ -26,8 +26,8 @@ function App() {
         <Route path='/contacto' element={<Contacto/>}/>
         <Route path='/terminos-y-condiciones' element={<TerminosYCondiciones/>}/>
         <Route path='/politica-de-privacidad' element={<PoliticaDePrivacidad/>}/>
-        <Route path='*' element={<Error404/>}/>
         <Route path='/confirmacion-compra' element={<ConfirmacionCompra />} />
+        <Route path='*' element={<Error404/>}/>
       </Routes>
     </main>
     <Footer/>
